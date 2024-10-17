@@ -24,4 +24,23 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .textshadow{
+    text-shadow: 0 0 25px #FFD54F,
+    0 0 50px #FFD54F,
+    0 0 100px #FFD54F,
+    0 0 200px #FFD54F
+  }
+
+  .light{
+    @apply animate-pulse textshadow
+  }
+
+  /* .light{
+    @apply text-white text-[16px] border-0 border-amber-300 px-[22px]
+    py-[7px] rounded
+  }
+
+  .light:hover{
+    @apply text-amber-300 textshadow
+  } */
 }
