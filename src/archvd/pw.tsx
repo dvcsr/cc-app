@@ -10,7 +10,7 @@ const Pw: FC = () => {return(
     <div className="flex-col bg-opacity-90 justify-end">
       <Image src={valer2} alt="bg-valer" objectFit="cover" className="absolute"/>
       <p className="relative font-serif text-white text-lg xl:text-5xl align-middle justify-end py-7 lg:p-[14rem] pr-7">
-      Hello <span className="font-bold text-lg text-sm md:text-2xl flex align-bottom text-amber-600">
+      Hello <span className="font-bold md:text-2xl flex align-bottom text-amber-600">
           <Image src={logo} alt="company logo" className="w-4 md:w-10 animate-pulse"/>
           <span className="text-sm lg:text-5xl ml-[-0.3rem]">ellow</span></span><br />
       Created in 2020, our company has risen to the highest reputation for providing the best lightbulb in the industry
