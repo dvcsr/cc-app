@@ -44,7 +44,9 @@ const Header:FC = () => {return(
     </div>
     <div className="text-white h-10 flex-col -mt-12 text-center xl:-mt-24">
       {/* testimonial */}
-      <div className="flex justify-center"><Image src={stars} alt="stars" width={100}/></div>
+      <div className="flex justify-center xl:-ml-5">
+        <Image src={stars} alt="stars" width={100}height={100}/>
+      </div>
       <h2 className="italic font-black">THE SEXIEST LIGHTBULB IN THE INDUSTRY</h2>
       <h3 className="-mb-6 xl:mb-0">Ade, CEO TokopakAde</h3>
       <div className="flex align-top justify-center p-0 md:pb-10 mt-[2rem] xl:mt-[2rem] ml-[-2rem] z-[99] opacity-70"> 
