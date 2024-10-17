@@ -23,7 +23,7 @@ const MyOverview:FC = () => {return(
       {/* bottom */}
       <h2 className="h-1/2 w-screen italic font-black text-4xl xl:text-9xl opacity-70 -m-5 flex items-center justify-center xl:justify-end pt-0">+8000 clients</h2>
       <div className="flex align-top justify-center lg:pt-20 opacity-70 pt-10"> 
-            <a href="#" className="bg-white bg-opacity-10 text-yellow-100 hover:text-yellow-400 text-xs md:text-lg xl:text-2xl rounded-full hover:font-extrabold py-2 px-4 light">
+            <a href="#sec3" className="bg-white bg-opacity-10 text-yellow-100 hover:text-yellow-400 text-xs md:text-lg xl:text-2xl rounded-full hover:font-extrabold py-2 px-4 light">
             LEARN MORE
             </a>
         </div>
