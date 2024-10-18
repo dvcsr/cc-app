@@ -4,7 +4,7 @@ import logo from "../../assets/yl.svg";
 
 const About:FC = () => {return(
 
-  <div className="bg-[url('../../public/valer.jpg')] bg-cover min-h-screen h-svh">
+  <div className="bg-[url('../../public/valer.jpg')] bg-cover min-h-screen h-svh overflow-hidden">
     <div className="sm:flex sm:items-center sm:justify-between py-5 rounded-full">
     <div className="flex justify-center md:flex-none md:justify-normal md:w-1/2 md:pl-20">
       {/* complogo */}
@@ -15,8 +15,9 @@ const About:FC = () => {return(
     <div className="md:w-1/2 sm:space-x-12 text-white">
   {/* three links */}
   <h2 className="w-screen text-start justify-center text-5xl xl:text-8xl font-sans pt-4 tracking-widest italic">
-    THE JOURNEY
+    OUR JOURNEY
     </h2>
+    <h3 className="sm:w-[21rem] xl:w-screen sm:text-sm md:text-start md:justify-center text-xl xl:text-xl font-sans pt-4 tracking-widest xl:italic ">INNOVATION - ADVANCEMENT - PERFECTION</h3>
     </div>
     </div>
     <div className="text-white flex-col justify-between h-fit text-center text-sm pt-7">

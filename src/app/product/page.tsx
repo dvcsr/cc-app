@@ -1,10 +1,10 @@
-
 import { FC } from "react";
+import Product from "../components/product";
 
-const Product: FC = () => {return(
+const ShowProduct: FC = () => {return(
 
-  <div>Product page uhuy yey</div>
+  <Product/>
 
 )}
 
-export default Product;
+export default ShowProduct;
