@@ -25,8 +25,8 @@ const Team: React.FC = () => {
     // Inside the fetchTeam function
 
     const fetchTeam = async () => {
-      let storedData = localStorage.getItem('team');
-      let lastFetchTime = localStorage.getItem('lastFetchTime');
+      const storedData = localStorage.getItem('team');
+      const lastFetchTime = localStorage.getItem('lastFetchTime');
       const currentTime = new Date().getTime();
     
       if (storedData && lastFetchTime) {
