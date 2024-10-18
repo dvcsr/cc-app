@@ -57,7 +57,7 @@ const Product:FC = () => {return(
       <div className=" sm:w-[50rem] xl:w-[50rem]">
       <div className="flex justify-center">
         <div className="flex justify-center items-center text-4xl">
-        <a href="/#sec2" className="inline-block flex-col items-center justify-center text-center align-middle border-none">
+        <a href="/contact" className="inline-block flex-col items-center justify-center text-center align-middle border-none">
       <span className="font-bold text-lg sm:text-2xl flex align-bottom text-amber-600">
   <Image src={logo} alt="company logo" className="w-10 animate-pulse"/><span className="opacity-100 text-5xl ml-[-0.3rem]">3LLOW</span>
       </span>

@@ -12,7 +12,7 @@ import logo from "../../assets/yl.svg";
 
 const Showcase:FC = () => {return(
 
-  <div id="sec3" className="max-w-screen-lg h-fit max-h-screen mx-auto">
+  <div className="max-w-screen-lg h-svh mx-auto">
   <div className="flex justify-center items-center p-4 md:p-20">
     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
       <div className="p-2 bg-yellow-300">
@@ -57,7 +57,7 @@ const Showcase:FC = () => {return(
       </div>
       <div className="p-2">
         <div className="h-56 w-56 flex justify-center items-center text-4xl">
-        <a href="/#sec2" className="inline-block flex-col items-center justify-center text-center align-middle border-none">
+        <a href="/contact" className="inline-block flex-col items-center justify-center text-center align-middle border-none">
       <span className="font-bold text-lg sm:text-2xl flex align-bottom text-amber-600">
   <Image src={logo} alt="company logo" className="w-10 animate-pulse"/><span className="opacity-100 text-5xl ml-[-0.3rem]">3LLOW</span>
       </span>
@@ -68,7 +68,7 @@ const Showcase:FC = () => {return(
       </div>
     </div>
   </div>
-  <footer className="row-start-2 flex gap-6 h-1/5 items-start justify-center pb-10">
+  <footer id="sec3" className="row-start-2 flex gap-6 h-1/5 items-start justify-center h-[1rem] pb-8">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://www.instagram.com/"

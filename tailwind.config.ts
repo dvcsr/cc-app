@@ -14,6 +14,7 @@ const config: Config = {
       },
       backgroundImage: {
         'valer2': "url('./public/valer2.jpg')",
+        'bgyl': "url('./public/bgyl.jpg')",
       },
     },
   },
